@@ -14,6 +14,7 @@
 		9918036119D25BDA00BEDFFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9918036019D25BDA00BEDFFE /* Images.xcassets */; };
 		9918036419D25BDA00BEDFFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9918036219D25BDA00BEDFFE /* LaunchScreen.xib */; };
 		9918037019D25BDA00BEDFFE /* Prep_For_Pirate_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918036F19D25BDA00BEDFFE /* Prep_For_Pirate_AssignmentTests.m */; };
+		9918037B19D2600B00BEDFFE /* MTLAwesomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918037A19D2600B00BEDFFE /* MTLAwesomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9918036919D25BDA00BEDFFE /* Prep For Pirate AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prep For Pirate AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9918036E19D25BDA00BEDFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9918036F19D25BDA00BEDFFE /* Prep_For_Pirate_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prep_For_Pirate_AssignmentTests.m; sourceTree = "<group>"; };
+		9918037919D2600B00BEDFFE /* MTLAwesomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLAwesomeClass.h; sourceTree = "<group>"; };
+		9918037A19D2600B00BEDFFE /* MTLAwesomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLAwesomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				9918035A19D25BDA00BEDFFE /* ViewController.h */,
 				9918035B19D25BDA00BEDFFE /* ViewController.m */,
 				9918035D19D25BDA00BEDFFE /* Main.storyboard */,
+				9918037919D2600B00BEDFFE /* MTLAwesomeClass.h */,
+				9918037A19D2600B00BEDFFE /* MTLAwesomeClass.m */,
 				9918036019D25BDA00BEDFFE /* Images.xcassets */,
 				9918036219D25BDA00BEDFFE /* LaunchScreen.xib */,
 				9918035319D25BDA00BEDFFE /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9918037B19D2600B00BEDFFE /* MTLAwesomeClass.m in Sources */,
 				9918035C19D25BDA00BEDFFE /* ViewController.m in Sources */,
 				9918035919D25BDA00BEDFFE /* AppDelegate.m in Sources */,
 				9918035619D25BDA00BEDFFE /* main.m in Sources */,

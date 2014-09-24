@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIButton *myButton;
+@property (nonatomic) CGPoint currentPoint;
 
 @end
 
